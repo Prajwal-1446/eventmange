@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        background-color: #343a40;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+
+      header {
+        background-color: #212529;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .card {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .card-body {
+        padding: 20px;
+      }
+
+      .card-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .card-text {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .btn-primary:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Event Management</h1>
+    </header>
+    <nav>
+      <a href="/home.html">Home</a>
+      <a href="#">Events</a>
+      <a href="/aboutus.html">About us</a>
+    </nav>
+    <div class="container">
+      <table>
+        <tr>
+          <td>
+            <div class="card">
+              <img
+                src="https://anthroholic.com/wp-content/uploads/2023/02/Universality-of-Marriage-Anthropology.webp"
+                class="card-img"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Marriage Events</h5>
+                <p class="card-text">Starting from-2 lakh</p>
+                <a
+                  href="/hospitals/<%= hosp.hospname %>"
+                  class="btn btn-primary"
+                  ><i class="fa fa-chevron-right"></i>More Information<n</a
+                >
+              </div>
+            </div>
+          </td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="card">
+              <img
+                src="https://www.autumnstonephotography.co.uk/wp-content/uploads/2020/04/Indian-Hindu-Naming-Ceremony-Photography-Namkaran-Service-43.jpg"
+                class="card-img"
+                alt=""
+              />
+              <div class="card-body">
+                <Naming class="card-title">Naming ceremony Events</h5>
+                <p class="card-text">Starting from-50,000 rs</p>
+                <a
+                  href="/hospitals/<%= hosp.hospname %>"
+                  class="btn btn-primary"
+                  ><i class="fa fa-chevron-right"></i> More Information</a
+                >
+              </div>
+            </div>
+          </td>
+
+        </tr>
+        <tr>
+          <td>
+            <div class="card">
+              <img
+                src="https://images.click.in/classifieds/images/178/09_01_2020_12_33_39_875450a1b336f97616b4133d312ca746_b2hzgdsx1q.jpg"
+                class="card-img"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Birthday Events</h5>
+                <p class="card-text">Starting from-10,000 rs</p>
+                <a
+                  href="/hospitals/<%= hosp.hospname %>"
+                  class="btn btn-primary"
+                  ><i class="fa fa-chevron-right"></i> More Information<</a
+                >
+              </div>
+            </div>
+          </td>
+
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
